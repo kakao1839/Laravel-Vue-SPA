@@ -8,15 +8,15 @@
                         <input type="text" class="col-sm-9 form-control-plaintext" readonly id="id" v-model="task.id">
                     </div>
                     <div class="form-group row">
-                        <label for="title" class="col-sm-3 col-form-label">Title</label>
+                        <label for="title" class="col-sm-3 col-form-label">タイトル</label>
                         <input type="text" class="col-sm-9 form-control" id="title" v-model="task.title">
                     </div>
                     <div class="form-group row">
-                        <label for="content" class="col-sm-3 col-form-label">Content</label>
+                        <label for="content" class="col-sm-3 col-form-label">内容</label>
                         <input type="text" class="col-sm-9 form-control" id="content" v-model="task.content">
                     </div>
                     <div class="form-group row">
-                        <label for="person-in-charge" class="col-sm-3 col-form-label">Person In Charge</label>
+                        <label for="person-in-charge" class="col-sm-3 col-form-label">やる人</label>
                         <input type="text" class="col-sm-9 form-control" id="person-in-charge" v-model="task.person_in_charge">
                     </div>
                 </form>
