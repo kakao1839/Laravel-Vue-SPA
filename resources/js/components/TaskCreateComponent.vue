@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-6">
-                <form>
+                <form v-on:submit.prevent="submit">
                     <div class="form-group row">
                         <labael for="title" class="col-sm-3 col-form-label">Title</labael>
                         <input type="text" class="col-sm-9 form-control" id="title" v-model="task.title">
                     </div>
                     <div class="form-group row">
-                        <label for="content" class="col-sm-3 col-form-label">Content
+                        <label for="content" class="col-sm-3 col-form-label">Content</label>
                         <input type="text" class="col-sm-9 form-control" id="content" v-model="task.content">
                     </div>
                     <div class="form-group row">
